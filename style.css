@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box‑sizing: border‑box;
+  font‑family: Arial, sans‑serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background: #286090;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font‑weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo‑1503387762‑592deb58ef4e') center/cover no‑repeat;
+  height: 65vh;
+  display: flex;
+  align‑items: center;
+  justify‑content: center;
+  text‑align: center;
+}
+
+.hero‑text {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 40px;
+  border‑radius: 10px;
+}
+
+.hero‑text button {
+  margin‑top: 15px;
+  padding: 12px 25px;
+  background: #286090;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid‑template‑columns: repeat(auto‑fit, minmax(220px, 1fr));
+  margin‑top: 25px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border‑radius: 8px;
+  transition: 0.3s;
+  box‑shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(5px);
+}
+
+.cta {
+  background: #286090;
+  color: white;
+  text‑align: center;
+}
+
+.cta button {
+  background: #ff9f00;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  cursor: pointer;
+}
+
+form {
+  max‑width: 450px;
+  margin: auto;
+  display: flex;
+  flex‑direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border‑radius: 5px;
+}
+
+button[type="submit"] {
+  background: #286090;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text‑align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
