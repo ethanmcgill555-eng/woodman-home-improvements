@@ -10,7 +10,7 @@
 
 <header>
   <h1>Woodman Home Improvements</h1>
-  <p>Built With Pride • Peterborough & Area</p>
+  <p>Built With Pride • Serving Peterborough & Area</p>
 </header>
 
 <nav>
@@ -20,39 +20,19 @@
   <a href="#contact">Contact</a>
 </nav>
 
-.hero {
-  position: relative;
-  background: #286090; /* fallback color if image fails */
-  min-height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-}
+<section class="hero">
+  <div class="hero-text">
+    <h2>Reliable Renovations & Repairs</h2>
+    <p>We handle projects big and small, treating your home like our own.</p>
+    <button onclick="scrollToContact()">Request a Quote</button>
+  </div>
+</section>
 
-.hero-overlay {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url('https://images.unsplash.com/photo-1597136148260-33f8d13d7d8b?auto=format&fit=crop&w=1600') center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-text {
-  background: rgba(0,0,0,0.55);
-  color: white;
-  padding: 25px 20px;
-  border-radius: 10px;
-  max-width: 600px;
-}
 <section id="services">
   <h2>Our Services</h2>
   <div class="grid">
     <div class="card">🏠 Home Renovations</div>
-    <div class="card">🔨 Repairs & Fix‑Ups</div>
+    <div class="card">🔨 Repairs & Fix-Ups</div>
     <div class="card">🪵 Decks & Outdoor Structures</div>
     <div class="card">🚿 Bathroom & Kitchen Updates</div>
     <div class="card">🧱 Flooring & Finishes</div>
@@ -63,27 +43,24 @@
 <section id="about">
   <h2>About Us</h2>
   <p>
-    Woodman Home Improvements is a locally‑trusted contractor serving Peterborough
-    and the surrounding area. We focus on honest communication, reliable timelines,
-    and high‑quality workmanship.
+    Woodman Home Improvements is a trusted local contractor serving Peterborough and surrounding areas.
+    We focus on honest communication, reliable timelines, and quality workmanship.
   </p>
   <p>
-    Whether it’s enhancing curb appeal or tackling a room redesign, we make the
-    process easy and stress‑free for you.
+    Whether you’re updating a room or tackling a full renovation, we make the process stress-free and professional.
   </p>
 </section>
 
 <section class="cta">
-  <h2>Got a Project in Mind?</h2>
-  <p>Let’s talk details and get you a quote that makes sense.</p>
-  <button onclick="scrollToContact()">Contact Us</button>
+  <h2>Ready to Start Your Project?</h2>
+  <p>Contact us today — we’ll give you a free estimate and expert advice.</p>
+  <button onclick="scrollToContact()">Get Started</button>
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-
+  <h2>Contact Us</h2>
   <p>📍 Peterborough, Ontario</p>
-  <p>📞 (705) 768‑3443</p>
+  <p>📞 (705) 768-3443</p>
 
   <form id="contactForm">
     <input type="text" placeholder="Your Name" required>
