@@ -9,7 +9,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
 
   const msg = document.getElementById("formMessage");
   msg.textContent = "Thanks! We'll be in touch soon.";
-  msg.style.color = "#286090";
+  msg.style.color = "#2563eb";
 
   this.reset();
 });
