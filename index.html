@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woodman Home Improvements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>Woodman Home Improvements</h1>
+  <p>Built With Pride • Peterborough & Area</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Your Project Done Right, Every Time</h2>
+    <p>From small fixes to large renovations — we treat your home like our own.</p>
+    <button onclick="scrollToContact()">Request a Quote</button>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">🏠 Home Renovations</div>
+    <div class="card">🔨 Repairs & Fix‑Ups</div>
+    <div class="card">🪵 Decks & Outdoor Structures</div>
+    <div class="card">🚿 Bathroom & Kitchen Updates</div>
+    <div class="card">🧱 Flooring & Finishes</div>
+    <div class="card">🛠 General Contracting</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Woodman Home Improvements is a locally‑trusted contractor serving Peterborough
+    and the surrounding area. We focus on honest communication, reliable timelines,
+    and high‑quality workmanship.
+  </p>
+  <p>
+    Whether it’s enhancing curb appeal or tackling a room redesign, we make the
+    process easy and stress‑free for you.
+  </p>
+</section>
+
+<section class="cta">
+  <h2>Got a Project in Mind?</h2>
+  <p>Let’s talk details and get you a quote that makes sense.</p>
+  <button onclick="scrollToContact()">Contact Us</button>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <p>📍 Peterborough, Ontario</p>
+  <p>📞 (705) 768‑3443</p>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Tell us about your project..." required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="formMessage"></p>
+</section>
+
+<footer>
+  <p>© 2026 Woodman Home Improvements</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
